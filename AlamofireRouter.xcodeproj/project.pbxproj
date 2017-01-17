@@ -89,14 +89,14 @@
 		F9A204AD1E22110100D64B7B /* APIRequest */ = {
 			isa = PBXGroup;
 			children = (
-				F9A204AE1E22110100D64B7B /* AlamofireRouter */,
+				F9A204AE1E22110100D64B7B /* Router */,
 				F9A204BC1E22110100D64B7B /* APIRequest.swift */,
 				F9A204BD1E22110100D64B7B /* RouterHelper.swift */,
 			);
 			path = APIRequest;
 			sourceTree = "<group>";
 		};
-		F9A204AE1E22110100D64B7B /* AlamofireRouter */ = {
+		F9A204AE1E22110100D64B7B /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				F9A204B81E22110100D64B7B /* Model */,
@@ -111,6 +111,7 @@
 				F9A204B61E22110100D64B7B /* AlamofireRouterResponseClass.swift */,
 				F9A204B71E22110100D64B7B /* AlamofireRouterURLRequest.swift */,
 			);
+			name = Router;
 			path = AlamofireRouter;
 			sourceTree = "<group>";
 		};
