@@ -17,9 +17,9 @@ extension AlamofireRouter {
         // Login
             
         case .login:
-            return .get
+            return .post
         case .forgotPassword:
-            return .get
+            return .post
         case .register:
             return .post
             
