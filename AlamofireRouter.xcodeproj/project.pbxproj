@@ -20,7 +20,6 @@
 		F9A204C71E22110100D64B7B /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B91E22110100D64B7B /* BaseResponse.swift */; };
 		F9A204C81E22110100D64B7B /* AlamofireRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204BB1E22110100D64B7B /* AlamofireRouterProtocol.swift */; };
 		F9A204C91E22110100D64B7B /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204BC1E22110100D64B7B /* APIRequest.swift */; };
-		F9A204CA1E22110100D64B7B /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204BD1E22110100D64B7B /* RouterHelper.swift */; };
 		F9D66E3B1E21E07600844FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D66E321E21E07600844FDE /* ViewController.swift */; };
 		F9D66E3C1E21E07600844FDE /* Common-Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D66E341E21E07600844FDE /* Common-Images.xcassets */; };
 		F9D66E3D1E21E07600844FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D66E361E21E07600844FDE /* LaunchScreen.storyboard */; };
@@ -46,7 +45,6 @@
 		F9A204B91E22110100D64B7B /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		F9A204BB1E22110100D64B7B /* AlamofireRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterProtocol.swift; sourceTree = "<group>"; };
 		F9A204BC1E22110100D64B7B /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		F9A204BD1E22110100D64B7B /* RouterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterHelper.swift; sourceTree = "<group>"; };
 		F9D66DF11E21DF1700844FDE /* AlamofireRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D66E321E21E07600844FDE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9D66E341E21E07600844FDE /* Common-Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Common-Images.xcassets"; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			children = (
 				F9A204AE1E22110100D64B7B /* Router */,
 				F9A204BC1E22110100D64B7B /* APIRequest.swift */,
-				F9A204BD1E22110100D64B7B /* RouterHelper.swift */,
 			);
 			path = APIRequest;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 				F9A204C21E22110100D64B7B /* AlamofireRouterParameters.swift in Sources */,
 				F9A204C71E22110100D64B7B /* BaseResponse.swift in Sources */,
 				F9A204C91E22110100D64B7B /* APIRequest.swift in Sources */,
-				F9A204CA1E22110100D64B7B /* RouterHelper.swift in Sources */,
 				F9A204C81E22110100D64B7B /* AlamofireRouterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

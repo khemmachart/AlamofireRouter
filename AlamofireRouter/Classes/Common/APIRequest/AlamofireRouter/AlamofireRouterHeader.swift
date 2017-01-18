@@ -17,4 +17,22 @@ extension AlamofireRouter {
             return nil
         }
     }
+    
+    public func setHttpHeaders(_ mutableURLRequest: inout URLRequest, headers: [String: String]?) {
+        addDefaultHttpHeader(&mutableURLRequest)
+        if let headers = headers {
+            for each in headers.keys {
+                mutableURLRequest.setValue(headers[each], forHTTPHeaderField: each)
+            }
+        }
+    }
+    
+    private func addDefaultHttpHeader(_ mutableURLRequest: inout URLRequest) {
+        
+        mutableURLRequest.setValue("application/json;charset=utf-8", forHTTPHeaderField: "Content-Type")
+        
+        if let token = UserInfo.sharedInstance.token {
+            mutableURLRequest.setValue(token, forHTTPHeaderField: "x-access-token")
+        }
+    }
 }

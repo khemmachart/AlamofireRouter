@@ -18,7 +18,7 @@ extension AlamofireRouter {
         var mutableURLRequest = URLRequest(url: url)
         mutableURLRequest.httpMethod = method.rawValue
         mutableURLRequest.httpBody = rawBody as Data
-        RouterHelper.setHttpHeaders(&mutableURLRequest, headers: headers)
+        setHttpHeaders(&mutableURLRequest, headers: headers)
         
         return try Alamofire.JSONEncoding.default.encode(mutableURLRequest, with: parameters)
     }
