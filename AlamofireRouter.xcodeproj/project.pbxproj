@@ -15,7 +15,6 @@
 		F9A204C21E22110100D64B7B /* AlamofireRouterParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B31E22110100D64B7B /* AlamofireRouterParameters.swift */; };
 		F9A204C31E22110100D64B7B /* AlamofireRouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B41E22110100D64B7B /* AlamofireRouterPath.swift */; };
 		F9A204C41E22110100D64B7B /* AlamofireRouterRawBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B51E22110100D64B7B /* AlamofireRouterRawBody.swift */; };
-		F9A204C51E22110100D64B7B /* AlamofireRouterResponseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B61E22110100D64B7B /* AlamofireRouterResponseClass.swift */; };
 		F9A204C61E22110100D64B7B /* AlamofireRouterURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B71E22110100D64B7B /* AlamofireRouterURLRequest.swift */; };
 		F9A204C71E22110100D64B7B /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204B91E22110100D64B7B /* BaseResponse.swift */; };
 		F9A204C81E22110100D64B7B /* AlamofireRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A204BB1E22110100D64B7B /* AlamofireRouterProtocol.swift */; };
@@ -40,7 +39,6 @@
 		F9A204B31E22110100D64B7B /* AlamofireRouterParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterParameters.swift; sourceTree = "<group>"; };
 		F9A204B41E22110100D64B7B /* AlamofireRouterPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterPath.swift; sourceTree = "<group>"; };
 		F9A204B51E22110100D64B7B /* AlamofireRouterRawBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterRawBody.swift; sourceTree = "<group>"; };
-		F9A204B61E22110100D64B7B /* AlamofireRouterResponseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterResponseClass.swift; sourceTree = "<group>"; };
 		F9A204B71E22110100D64B7B /* AlamofireRouterURLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterURLRequest.swift; sourceTree = "<group>"; };
 		F9A204B91E22110100D64B7B /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		F9A204BB1E22110100D64B7B /* AlamofireRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterProtocol.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				F9A204B31E22110100D64B7B /* AlamofireRouterParameters.swift */,
 				F9A204B41E22110100D64B7B /* AlamofireRouterPath.swift */,
 				F9A204B51E22110100D64B7B /* AlamofireRouterRawBody.swift */,
-				F9A204B61E22110100D64B7B /* AlamofireRouterResponseClass.swift */,
 				F9A204B71E22110100D64B7B /* AlamofireRouterURLRequest.swift */,
 			);
 			name = Router;
@@ -359,7 +356,6 @@
 			files = (
 				F9A204C41E22110100D64B7B /* AlamofireRouterRawBody.swift in Sources */,
 				F9A204C31E22110100D64B7B /* AlamofireRouterPath.swift in Sources */,
-				F9A204C51E22110100D64B7B /* AlamofireRouterResponseClass.swift in Sources */,
 				F9A204BF1E22110100D64B7B /* AlamofireRouterBaseURLString.swift in Sources */,
 				F9D66E771E21E78E00844FDE /* UserInfo.swift in Sources */,
 				F9A204BE1E22110100D64B7B /* AlamofireRouter.swift in Sources */,

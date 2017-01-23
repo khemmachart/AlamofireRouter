@@ -16,6 +16,5 @@ public protocol AlamofireRouterProtocol: URLRequestConvertible {
     var headers: [String: String]? { get }
     var parameters: [String: Any]? { get }
     var rawBody: NSData { get }
-    var responseClass: BaseResponse.Type { get }
 }
 
